@@ -42,3 +42,11 @@ lab01/lab01/Task2/Debug/
 lab01/lab01/Task3/Debug/
 
 lab01/lab01/Task4/Debug/
+
+git rm — cached — ignore-unmatch Task1.vcxproj
+git rm — cached — ignore-unmatch Task1.vcxproj.filters
+git rm — cached — ignore-unmatch Task1.vcxproj.user
+git rm — cached — ignore-unmatch pch.cpp
+git rm — cached — ignore-unmatch pch.h
+git commit -m “test”
+git push origin {branch name}
