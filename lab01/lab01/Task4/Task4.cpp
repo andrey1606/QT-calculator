@@ -1,8 +1,15 @@
-#include "stdafx.h"
+#include "pch.h"
 #include <iostream>
 #include <cmath>
 
-int getChoice1()
+void clearCin()
+{
+	std::cin.clear();
+	std::cin.ignore(32767, '\n');
+	std::cout << "Input error. Try again!\n";
+}
+
+int choiceAction()
 {
 	while (true)
 	{
@@ -18,9 +25,7 @@ int getChoice1()
 		std::cin >> choice1;
 		if (std::cin.fail())
 		{
-			std::cin.clear();
-			std::cin.ignore(32767, '\n');
-			std::cout << "Input error. Try again!\n";
+			clearCin();
 		}
 		else
 		{
@@ -35,7 +40,7 @@ int getChoice1()
 	}
 }
 
-int getChoice2()
+int continueOrNo()
 {
 	while (true)
 	{
@@ -46,9 +51,7 @@ int getChoice2()
 		std::cin >> choice2;
 		if (std::cin.fail())
 		{
-			std::cin.clear();
-			std::cin.ignore(32767, '\n');
-			std::cout << "Input error. Try again!\n";
+			clearCin();
 		}
 		else
 		{
@@ -71,9 +74,7 @@ double getNumberSimp(int x)
 		std::cin >> a;
 		if (std::cin.fail())
 		{
-			std::cin.clear();
-			std::cin.ignore(32767, '\n');
-			std::cout << "Input error. Try again!\n";
+			clearCin();
 		}
 		else
 			return a;
@@ -90,9 +91,7 @@ double getNumberLog()
 		std::cin >> a;
 		if (std::cin.fail())
 		{
-			std::cin.clear();
-			std::cin.ignore(32767, '\n');
-			std::cout << "Input error. Try again!\n";
+			clearCin();
 		}
 		else
 		{
@@ -114,9 +113,7 @@ double getNumberBaseLog()
 		std::cin >> a;
 		if (std::cin.fail())
 		{
-			std::cin.clear();
-			std::cin.ignore(32767, '\n');
-			std::cout << "Input error. Try again!\n";
+			clearCin();
 		}
 		else
 		{
@@ -138,9 +135,7 @@ double getNumberSqrt()
 		std::cin >> a;
 		if (std::cin.fail())
 		{
-			std::cin.clear();
-			std::cin.ignore(32767, '\n');
-			std::cout << "Input error. Try again!\n";
+			clearCin();
 		}
 		else
 		{
@@ -160,7 +155,7 @@ int main()
 	{
 		int choice1;
 		double a, base, ln1, ln2, result;
-		choice1 = getChoice1();
+		choice1 = choiceAction();
 		switch (choice1)
 		{
 		case 1:
@@ -199,7 +194,7 @@ int main()
 			break;
 
 		}
-		choice2 = getChoice2();
+		choice2 = continueOrNo();
 	} while (choice2 == 1);
 
 	return 0;
