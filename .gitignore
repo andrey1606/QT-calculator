@@ -35,7 +35,7 @@ lab01/lab01/Debug/
 
 lab01/lab01/\.vs/
 
-lab01/lab01/Task1/Debug
+lab01/lab01/Task1/Debug/
 
 lab01/lab01/Task2/Debug/
 
@@ -43,10 +43,26 @@ lab01/lab01/Task3/Debug/
 
 lab01/lab01/Task4/Debug/
 
-git rm — cached — ignore-unmatch Task1.vcxproj
-git rm — cached — ignore-unmatch Task1.vcxproj.filters
-git rm — cached — ignore-unmatch Task1.vcxproj.user
-git rm — cached — ignore-unmatch pch.cpp
-git rm — cached — ignore-unmatch pch.h
-git commit -m “test”
-git push origin {branch name}
+lab01/lab01/Task1/Task1\.vcxproj
+lab01/lab01/Task1/Task1\.vcxproj\.filters
+lab01/lab01/Task1/Task1\.vcxproj\.user
+lab01/lab01/Task1/pch\.cpp
+lab01/lab01/Task1/pch\.h
+
+lab01/lab01/Task2/Task2\.vcxproj
+lab01/lab01/Task2/Task2\.vcxproj\.filters
+lab01/lab01/Task2/Task2\.vcxproj\.user
+lab01/lab01/Task2/pch\.cpp
+lab01/lab01/Task2/pch\.h
+
+lab01/lab01/Task3/Task3\.vcxproj
+lab01/lab01/Task3/Task3\.vcxproj\.filters
+lab01/lab01/Task3/Task3\.vcxproj\.user
+lab01/lab01/Task3/pch\.cpp
+lab01/lab01/Task3/pch\.h
+
+lab01/lab01/Task4/Task4\.vcxproj
+lab01/lab01/Task4/Task4.vcxproj\.filters
+lab01/lab01/Task4/Task4\.vcxproj\.user
+lab01/lab01/Task4/pch\.cpp
+lab01/lab01/Task4/pch\.h
