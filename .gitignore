@@ -50,3 +50,17 @@ git rm — cached — ignore-unmatch pch.cpp
 git rm — cached — ignore-unmatch pch.h
 git commit -m “test”
 git push origin {branch name}
+
+lab02/lab02/\.vs/
+
+lab02/lab02/Task1/pch\.cpp
+
+lab02/lab02/Task1/pch\.h
+
+lab02/lab02/Task1/Task1\.vcxproj
+
+lab02/lab02/Task1/Task1\.vcxproj\.filters
+
+lab02/lab02/Task1/Task1\.vcxproj\.user
+
+lab02/lab02/lab02\.sln
