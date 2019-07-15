@@ -90,3 +90,5 @@ lab01/lab01/Task4/Task4\.vcxproj\.user
 lab01/lab01/Task4/pch\.cpp
 lab01/lab01/Task4/pch\.h
 >>>>>>> master
+
+*.user
